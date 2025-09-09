@@ -1,13 +1,16 @@
 {
   "name": "genapi",
   "version": "1.0.0",
+  "type": "module",
   "description": "A CLI that helps to generate APIs",
   "main": "bin/index.js",
   "bin": {
     "genapi": "./bin/index.js"
   },
+  
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bin/index.js"
   },
   "author": "Yasir",
   "license": "ISC",
