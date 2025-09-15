@@ -19,7 +19,7 @@ async function main() {
       type: "list",
       name: "framework",
       message: "Which framework do you want to use?",
-      choices: ["Express.js", "FastAPI"],
+      choices: ["Express.js"], //  Express.js for now
     },
   ]);
 
@@ -27,8 +27,7 @@ async function main() {
 
   // Map framework names to folder names
   const frameworkMap = {
-    "Express.js": "express",
-    FastAPI: "fastapi",
+    "Express.js": "express", // ✅ only one template
   };
 
   const templateDir = path.join(__dirname, "../templates", frameworkMap[framework]);

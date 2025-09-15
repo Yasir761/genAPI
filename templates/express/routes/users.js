@@ -1,26 +1,12 @@
 import express from "express";
+import { createUser, getUsers, updateUser, deleteUser } from "../controllers/usersController.js";
+import validateRequest from "../middlewares/validateRequest.js";
 
 const usersRouter = express.Router();
 
-// Create
-usersRouter.post("/", (req, res) => {
-  res.send("User created");
-});
+usersRouter.post("/", validateRequest, createUser);
+usersRouter.get("/", getUsers);
+usersRouter.put("/:id", validateRequest, updateUser);
+usersRouter.delete("/:id", deleteUser);
 
-// Read
-usersRouter.get("/", (req, res) => {
-  res.send("List users");
-});
-
-// Update
-usersRouter.put("/:id", (req, res) => {
-  res.send("User updated");
-});
-
-// Delete
-usersRouter.delete("/:id", (req, res) => {
-  res.send("User deleted");
-});
-
-// ✅ Correct export
 export { usersRouter };
