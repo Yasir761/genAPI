@@ -19,23 +19,42 @@ async function main() {
       type: "list",
       name: "framework",
       message: "Which framework do you want to use?",
-      choices: ["Express.js"], //  Express.js for now
+      choices: ["Express.js"],
+    },
+    {
+      type: "list",
+      name: "apiType",
+      message: "Do you want REST API, GraphQL, or Both?",
+      choices: ["REST", "GraphQL", "Both"],
     },
   ]);
 
-  const { projectName, framework } = answers;
+  const { projectName, framework, apiType } = answers;
 
-  // Map framework names to folder names
   const frameworkMap = {
-    "Express.js": "express", // ✅ only one template
+    "Express.js": "express",
   };
 
-  const templateDir = path.join(__dirname, "../templates", frameworkMap[framework]);
+  const apiMap = {
+    REST: "rest",
+    GraphQL: "graphql",
+    Both: "rest-graphql",
+  };
+
+  const templateDir = path.join(
+    __dirname,
+    "../templates",
+    frameworkMap[framework],
+    apiMap[apiType]
+  );
+
   const targetDir = path.join(process.cwd(), projectName);
 
   try {
     await fs.copy(templateDir, targetDir);
-    console.log(`✅ ${framework} API scaffolded successfully in "${projectName}"`);
+    console.log(
+      `✅ ${framework} ${apiType} API scaffolded successfully in "${projectName}"`
+    );
   } catch (err) {
     console.error("❌ Error copying template:", err.message);
   }
