@@ -2,7 +2,7 @@
   "name": "genapi",
   "version": "1.0.0",
   "type": "module",
-  "description": "A CLI that helps to generate APIs",
+  "description": "A CLI to scaffold REST or GraphQL APIs with Express.js",
   "main": "bin/index.js",
   "bin": {
     "genapi": "./bin/index.js"
@@ -11,8 +11,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./bin/index.js"
   },
+  "keywords": ["cli", "api", "express", "graphql", "rest"],
   "author": "Yasir",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@apollo/server": "^5.0.0",
     "commander": "^14.0.1",
