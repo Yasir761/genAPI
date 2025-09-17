@@ -51,11 +51,11 @@ my-api/
 
 ## Contributing
 
-Contributions are always welcome!
+Contributions are always welcome!  
 
-See `contributing.md` for ways to get started.
+Please read our [Contributing Guide](CONTRIBUTING.md) to get started and make your contributions effective.  
 
-Please adhere to this project's `code of conduct`.
+Also, adhere to the project's [Code of Conduct](CODE_OF_CONDUCT.md) to ensure a welcoming community for all contributors.
 
 
 ## License
