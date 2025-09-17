@@ -68,7 +68,7 @@ async function runInteractive() {
 }
 
 program
-  .name("genapi")
+  .name("genapi-cli")
   .description("Generate REST or GraphQL API boilerplates")
   .argument("[project-name]", "Name of the project")
   .option("--framework <framework>", "Framework to use (express)")

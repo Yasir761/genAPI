@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 export const connectDB = async () => {
   try {
-    await mongoose.connect(process.env.MONGO_URI || "mongodb://localhost:27017/genapi", {
+    await mongoose.connect(process.env.MONGO_URI || "mongodb://localhost:27017/genapi-cli", {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });

@@ -1,6 +1,6 @@
-# Contributing to GenAPI 🚀
+# Contributing to GenAPI-CLI 🚀
 
-First off, thank you for considering contributing to **GenAPI**!  
+First off, thank you for considering contributing to **GenAPI-CLI**!  
 Your help is what makes open-source awesome. 💖  
 
 ---
@@ -8,12 +8,12 @@ Your help is what makes open-source awesome. 💖
 ## 🛠 How Can You Contribute?
 
 ### 1. Reporting Bugs
-- **Report Bugs:** Use our [Bug Report template](https://github.com/Yasir761/genapi/issues/new?assignees=&labels=bug&template=bug_report.md)
+- **Report Bugs:** Use our [Bug Report template](https://github.com/Yasir761/genapi-cli/issues/new?assignees=&labels=bug&template=bug_report.md)
 
 
 ### 2. Suggesting Features
-- Open a [feature request](https://github.com/yourusername/genapi/issues) with:
-- **Suggest Features:** Use our [Feature Request template](https://github.com/Yasir761/genapi/issues/new?assignees=&labels=enhancement&template=feature_request.md) 
+- Open a [feature request](https://github.com/yourusername/genapi-cli/issues) with:
+- **Suggest Features:** Use our [Feature Request template](https://github.com/Yasir761/genapi-cli/issues/new?assignees=&labels=enhancement&template=feature_request.md) 
 
 ### 3. Submitting Pull Requests
 - Fork the repo
@@ -36,8 +36,8 @@ Your help is what makes open-source awesome. 💖
 
 Clone your fork:
 ```bash
-git clone https://github.com/Yasi761/genapi.git
-cd genapi
+git clone https://github.com/Yasi761/genapi-cli.git
+cd genapi-cli
 ```
 
 Install dependencies
@@ -52,7 +52,7 @@ npm link
 
 Now test you CLI
 ```bash
-genapi my-api --framework express --type rest
+genapi-cli my-api --framework express --type rest
 ```
 
 

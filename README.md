@@ -1,5 +1,5 @@
 
-# GENAPI
+# GENAPI CLI
 
 A lightweight CLI tool to scaffold **REST** or **GraphQL** APIs with Express.js — in seconds.
 
@@ -26,13 +26,13 @@ npm install -g genapi
 
 Interactive mode
 ```bash
-genapi
+genapi-cli
 ```
 
 Direct mode
 ```bash
-genapi my-api --framework express --type rest
-genapi my-api --framework express --type graphql
+genapi-cli my-api --framework express --type rest
+genapi-cli my-api --framework express --type graphql
 
 ```
     

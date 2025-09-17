@@ -1,6 +1,6 @@
 ---
 name: Feature Request
-about: Suggest a new feature for GenAPI
+about: Suggest a new feature for GenAPI-CLI
 title: "[FEATURE]"
 labels: enhancement
 assignees: 

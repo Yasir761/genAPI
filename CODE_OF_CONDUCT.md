@@ -1,7 +1,7 @@
 # Code of Conduct
 
 ## Our Pledge
-We want **GenAPI** to be a welcoming, safe, and inclusive community. All participants should feel respected regardless of age, gender, race, religion, nationality, disability, or experience level.
+We want **GenAPI-CLI** to be a welcoming, safe, and inclusive community. All participants should feel respected regardless of age, gender, race, religion, nationality, disability, or experience level.
 
 ## Expected Behavior
 - Be respectful, inclusive, and professional
@@ -15,18 +15,18 @@ We want **GenAPI** to be a welcoming, safe, and inclusive community. All partici
 
 ## Reporting
 ## Reporting
-If you experience or witness unacceptable behavior, please report it via [GitHub Discussions](https://github.com/Yasir761/genapi/discussions). Reports will be handled confidentially by the maintainers.
+If you experience or witness unacceptable behavior, please report it via [GitHub Discussions](https://github.com/Yasir761/genapi-cli/discussions). Reports will be handled confidentially by the maintainers.
 
 
 ## Scope
-This applies in all project spaces and when representing **GenAPI** publicly.
+This applies in all project spaces and when representing **GenAPI-CLI** publicly.
 
 ---
 
 
 ## Reporting
 
-If you experience or witness unacceptable behavior, please report it via [GitHub Discussions](https://github.com/Yasir761/genapi/discussions). 
+If you experience or witness unacceptable behavior, please report it via [GitHub Discussions](https://github.com/Yasir761/genapi-cli/discussions). 
 Reports will be handled confidentially by the maintainers.
 
 This is adapted from the [Contributor Covenant](https://www.contributor-covenant.org)

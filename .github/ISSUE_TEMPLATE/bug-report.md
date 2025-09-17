@@ -1,6 +1,6 @@
 ---
 name: Bug Report
-about: Report a bug in GenAPI
+about: Report a bug in GenAPI-CLI
 title: "[BUG]"
 labels: bug
 assignees: 
@@ -20,7 +20,7 @@ What actually happened.
 ## Environment
 - OS:
 - Node.js version:
-- GenAPI version:
+- GenAPI-CLI version:
 
 ## Screenshots / Logs
 (Optional)
